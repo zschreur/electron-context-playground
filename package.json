@@ -1,0 +1,18 @@
+{
+  "name": "electron-context-playground",
+  "version": "1.0.0",
+  "description": "simple electron app to familiarize myself with electron context",
+  "scripts": {
+    "start": "electron ./src/main/index.js"
+  },
+  "author": "Zackary Schreur",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-webpack": "^2.8.2",
+    "webpack": "^5.30.0"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  }
+}
